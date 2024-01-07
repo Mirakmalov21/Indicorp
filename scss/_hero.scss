@@ -1,0 +1,134 @@
+.hero {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-image: url(../images/bg__hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__content {
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title {
+    max-width: 510px;
+    color: #252B42;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px; 
+    letter-spacing: 0.2px;
+}
+
+.hero__desc {
+    max-width: 375px;
+    margin: 35px 0;
+    color:  #737373;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px; 
+    letter-spacing: 0.2px;    
+}
+
+.buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.hero__info-content {
+    margin: 80px 0;
+}
+
+.hero__list {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .hero__list-item:nth-child(2){
+        padding: 35px 15px 35px 40px;
+    }
+
+    .hero__list-item:last-child {
+        background: var(--secondary-color-1, #00A0C1);
+        box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);  
+        h2 {
+            color: #fff;
+        }  
+
+        p {
+            color: #fff;
+        }
+    }
+}
+
+.hero__list-item {
+    max-width: 328px;
+    background: #FFF;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 35px 40px;
+    h2 {
+        margin: 10px 0;
+        color:  #252B42; 
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px; 
+        letter-spacing: 0.1px;    
+    }
+
+    p {
+        max-width: 225px;
+        color: var(--second-text-color, #737373);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.2px;    
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero__content {
+        padding-top: 120px;
+        padding-bottom: 750px;
+    }
+    .hero__title {
+        font-size: 40px;
+        line-height: 57px;
+        text-align: center;
+    }
+
+    .hero__desc {
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .btn__primary {
+        max-width: fit-content;
+    }
+
+    .btn__light {
+        max-width: fit-content;
+    }
+
+    .hero__list {
+        flex-direction: column;
+        align-items: stretch;
+        padding-bottom: 200px;
+    }
+
+}
+

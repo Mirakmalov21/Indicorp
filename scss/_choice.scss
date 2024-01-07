@@ -1,0 +1,27 @@
+.choice {
+    margin: 180px 0 80px;
+}
+
+.choice__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice__title {
+    color: #252B42;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px; 
+    letter-spacing: 0.2px;  
+}
+
+.choice__desc {
+    color:  #737373;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: 0.2px;    
+}
