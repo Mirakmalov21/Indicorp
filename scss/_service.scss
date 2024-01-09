@@ -1,0 +1,126 @@
+.service__title {
+    max-width: 470px;
+    margin: 100px auto 0;
+    color:#252B42;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;   
+}
+
+.service__desc {
+    max-width: 515px;
+    margin: 10px auto 100px;
+    color: #737373;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px; 
+    letter-spacing: 0.2px;    
+}
+
+.service__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h2 {
+        max-width: 330px;
+        color: #252B42;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 57px; 
+        letter-spacing: 0.2px;   
+    }
+
+    p {
+        max-width: 330px;
+        color: #737373;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.2px;    
+    }
+}
+
+
+.service__list {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+.servise__list-content {
+
+    h3 {
+        max-width: 287px;
+        color: #252B42;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.1px;    
+    }
+
+    p {
+        color:#737373;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px; 
+        letter-spacing: 0.2px;    
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .service__content {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .video__content {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .service__content {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .video__content {
+        width: 100%;
+        height: 400px;
+    }
+
+    .service__info {
+        justify-content: center;
+        align-items: center;
+        
+        h2 {
+            text-align: center;
+            max-width: 600px;
+        }
+    }
+
+    .service__info-desc {
+        text-align: center;
+    }
+
+    .service__list-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+}

@@ -91,3 +91,17 @@ header {
     }
 }
 
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .container {
+        padding: 0 30px;
+    }
+
+    .navbar {
+        padding-top: 30px;
+    }
+
+    .menuOpener {
+        margin-left: 0;
+    }
+}
+

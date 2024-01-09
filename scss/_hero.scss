@@ -99,6 +99,7 @@
         padding-bottom: 750px;
     }
     .hero__title {
+        margin: 0 auto;
         font-size: 40px;
         line-height: 57px;
         text-align: center;
@@ -106,7 +107,7 @@
 
     .hero__desc {
         text-align: center;
-        margin: 40px 0;
+        margin: 40px auto;
     }
 
     .buttons {
@@ -130,5 +131,33 @@
         padding-bottom: 200px;
     }
 
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px){
+    .hero {
+        background-position: left center;
+    }
+
+    .hero__content {
+        padding-bottom: 400px;
+
+        h2 {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        p {
+            margin: 20px auto;
+            text-align: center;
+        }
+        
+        .buttons {
+            margin: 0 auto;
+        }
+    }
+
+    .hero__list {
+        justify-content: center;
+    }
 }
 

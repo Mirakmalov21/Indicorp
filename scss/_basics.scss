@@ -28,6 +28,7 @@ ul {
     letter-spacing: 0.2px;
     background:  #FFA62B;    
     border: 1px solid #FFA62B;
+    border-radius: 5px;
     transition: all 0.3s ease;
 
     &:hover {
@@ -50,11 +51,25 @@ ul {
     letter-spacing: 0.2px;
     background:  transparent;    
     border: 1px solid #00A0C1;
-    border-radius: 37px;
+    border-radius: 5px;
     transition: all 0.3s ease;
 
     &:hover {
         background: #00A0C1;
+        color: #FFF;
+    }
+}
+
+.btn__ligt-oval {
+    border-radius: 37px;
+}
+
+.btn__light-gold {
+    color: #FFA62B;
+    border: 1px solid #FFA62B;
+
+    &:hover {
+        background: #FFA62B;
         color: #FFF;
     }
 }
