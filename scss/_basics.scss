@@ -1,75 +1,77 @@
-*, *::after, *::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 1050px;
-    margin: 0 auto;
+  max-width: 1050px;
+  margin: 0 auto;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .btn__primary {
-    padding: 10px 40px;
-    color: #FFF;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.2px;
-    background:  #FFA62B;    
-    border: 1px solid #FFA62B;
-    border-radius: 5px;
-    transition: all 0.3s ease;
+  padding: 10px 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  background: #ffa62b;
+  border: 1px solid #ffa62b;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 
-    &:hover {
-        background: transparent;
-        color: #FFA62B;
-    }
+  &:hover {
+    background: transparent;
+    color: #ffa62b;
+  }
 }
 
 .btn__primary-oval {
-    border-radius: 37px;
+  border-radius: 37px;
 }
 
 .btn__light {
-    padding: 10px 40px;
-    color: #00A0C1;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.2px;
-    background:  transparent;    
-    border: 1px solid #00A0C1;
-    border-radius: 5px;
-    transition: all 0.3s ease;
+  padding: 10px 40px;
+  color: #00a0c1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  background: transparent;
+  border: 1px solid #00a0c1;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 
-    &:hover {
-        background: #00A0C1;
-        color: #FFF;
-    }
+  &:hover {
+    background: #00a0c1;
+    color: #fff;
+  }
 }
 
 .btn__ligt-oval {
-    border-radius: 37px;
+  border-radius: 37px;
 }
 
 .btn__light-gold {
-    color: #FFA62B;
-    border: 1px solid #FFA62B;
+  color: #ffa62b;
+  border: 1px solid #ffa62b;
 
-    &:hover {
-        background: #FFA62B;
-        color: #FFF;
-    }
+  &:hover {
+    background: #ffa62b;
+    color: #fff;
+  }
 }

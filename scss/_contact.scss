@@ -79,5 +79,20 @@
 }
 
 @media screen and (max-width: 767px) {
-    
+    .contact {
+        padding-top: 200px;
+    }
+
+    .contact__list {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+.test {
+    @include title(50px, sans-serif, coral, 700, center) {
+
+    };
+
 }

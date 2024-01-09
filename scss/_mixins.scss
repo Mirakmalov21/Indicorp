@@ -1,0 +1,10 @@
+@mixin title($fontSize: 50px, $family, $color, $weight, $textAlign) {
+    font-size: $fontSize;
+    font-family: $family;
+    color: $color;
+    font-weight: $weight;
+    text-align: $textAlign;
+
+    @content;
+}
+

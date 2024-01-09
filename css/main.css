@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
-*, *::after, *::before {
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -21,20 +27,20 @@ ul {
 
 .btn__primary {
   padding: 10px 40px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0.2px;
-  background: #FFA62B;
-  border: 1px solid #FFA62B;
+  background: #ffa62b;
+  border: 1px solid #ffa62b;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 .btn__primary:hover {
   background: transparent;
-  color: #FFA62B;
+  color: #ffa62b;
 }
 
 .btn__primary-oval {
@@ -43,20 +49,20 @@ ul {
 
 .btn__light {
   padding: 10px 40px;
-  color: #00A0C1;
+  color: #00a0c1;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0.2px;
   background: transparent;
-  border: 1px solid #00A0C1;
+  border: 1px solid #00a0c1;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 .btn__light:hover {
-  background: #00A0C1;
-  color: #FFF;
+  background: #00a0c1;
+  color: #fff;
 }
 
 .btn__ligt-oval {
@@ -64,16 +70,12 @@ ul {
 }
 
 .btn__light-gold {
-  color: #FFA62B;
-  border: 1px solid #FFA62B;
+  color: #ffa62b;
+  border: 1px solid #ffa62b;
 }
 .btn__light-gold:hover {
-  background: #FFA62B;
-  color: #FFF;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
+  background: #ffa62b;
+  color: #fff;
 }
 
 .navbar {
@@ -631,11 +633,11 @@ header {
   justify-content: space-between;
   align-items: center;
   border-radius: 2px;
-  background: #16697A;
+  background: #16697a;
 }
 .subsribe h3 {
   max-width: 260px;
-  color: #FFF;
+  color: #fff;
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -686,7 +688,7 @@ header {
   width: 100%;
   height: 77px;
   left: 0;
-  background: #252B42;
+  background: #252b42;
   z-index: -1;
 }
 
@@ -820,4 +822,21 @@ header {
 }
 .contact__list-item:nth-child(2) h3 {
   color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .contact {
+    padding-top: 200px;
+  }
+  .contact__list {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+.test {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: coral;
+  font-weight: 700;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
