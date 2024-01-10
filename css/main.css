@@ -626,10 +626,6 @@ header {
   margin-bottom: 70px;
 }
 
-.slider {
-  display: none;
-}
-
 .subsribe {
   padding: 30px 50px;
   display: flex;
@@ -699,22 +695,11 @@ header {
   .logos {
     margin-top: 30px;
   }
-  .slider__wrapper {
-    display: inline-block;
-  }
   .logo__part {
     flex-wrap: nowrap;
     flex-shrink: 0;
+    overflow-x: scroll;
     gap: 30px;
-    animation: slide 5s linear infinite;
-  }
-  @keyframes slide {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-100%);
-    }
   }
   .subsribe {
     position: absolute;
