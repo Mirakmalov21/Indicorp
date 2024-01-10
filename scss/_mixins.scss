@@ -1,10 +1,21 @@
 @mixin title($fontSize: 50px, $family, $color, $weight, $textAlign) {
-    font-size: $fontSize;
-    font-family: $family;
-    color: $color;
-    font-weight: $weight;
-    text-align: $textAlign;
+  font-size: $fontSize;
+  font-family: $family;
+  color: $color;
+  font-weight: $weight;
+  text-align: $textAlign;
 
-    @content;
+  @content;
 }
 
+@mixin mediaMobile() {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin mediaTab() {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    @content;
+  }
+}
